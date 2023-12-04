@@ -3,7 +3,8 @@ use nom::combinator::map_res;
 use nom::multi::many1;
 use nom::IResult;
 
-pub fn aoc_01_1(input: &str) -> () {
+#[allow(unused)]
+pub fn aoc_01_1(input: &str) {
     println!("aoc_01_1: {}", main(input))
 }
 

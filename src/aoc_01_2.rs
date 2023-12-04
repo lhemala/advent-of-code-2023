@@ -1,6 +1,7 @@
 use logos::{Lexer, Logos};
 
-pub fn aoc_01_2(input: &str) -> () {
+#[allow(unused)]
+pub fn aoc_01_2(input: &str) {
     println!("aoc_01_2: {}", main(input))
 }
 

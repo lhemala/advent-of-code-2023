@@ -11,6 +11,8 @@ use crate::aoc_05_1::aoc_05_1;
 use crate::aoc_05_2::aoc_05_2;
 use crate::aoc_06_1::aoc_06_1;
 use crate::aoc_06_2::aoc_06_2;
+use crate::aoc_07_1::aoc_07_1;
+use crate::aoc_07_2::aoc_07_2;
 
 mod aoc_01_1;
 mod aoc_01_2;
@@ -24,6 +26,8 @@ mod aoc_05_1;
 mod aoc_05_2;
 mod aoc_06_1;
 mod aoc_06_2;
+mod aoc_07_1;
+mod aoc_07_2;
 
 fn main() {
     // let aoc_01_input = std::fs::read_to_string("input/01.txt").unwrap();
@@ -46,7 +50,11 @@ fn main() {
     // aoc_05_1(&aoc_05_input);
     // aoc_05_2(&aoc_05_input);
 
-    let aoc_06_input = std::fs::read_to_string("input/06.txt").unwrap();
-    aoc_06_1(&aoc_06_input);
-    aoc_06_2(&aoc_06_input);
+    // let aoc_06_input = std::fs::read_to_string("input/06.txt").unwrap();
+    // aoc_06_1(&aoc_06_input);
+    // aoc_06_2(&aoc_06_input);
+
+    let aoc_07_input = std::fs::read_to_string("input/07.txt").unwrap();
+    aoc_07_1(&aoc_07_input);
+    aoc_07_2(&aoc_07_input);
 }
